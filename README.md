@@ -4,11 +4,11 @@ Halo mass corrections based on Illustris, IllustrisTNG, and EAGLE from Beltz-Moh
 
 The corrections are 7th order polynomials, and the coefficients are given in order from lowest to highest, i.e. h,g,f,e,d,c,b,a.
 
-The corrected DMO halo masses (in units of 10<sup>10</sup> h<sup>-1</sup> M<sub>&starf;</sub>) are given by
+The corrected DMO halo masses (in units of 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;</sub>) are given by
 
 M<sub>h,corrected</sub> = (y + 1) M<sub>h,DMO</sub>
 
-where M<sub>h,DMO</sub> is the unlogged original halo mass in units of 10<sup>10</sup> h<sup>-1</sup> M<sub>&starf;</sub>, and
+where M<sub>h,DMO</sub> is the unlogged original halo mass in units of 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;</sub>, and
 
 y = ax<sup>7</sup> + bx<sup>6</sup> + cx<sup>5</sup> + dx<sup>4</sup> + ex<sup>3</sup> + fx<sup>2</sup> + gx + h 
 
