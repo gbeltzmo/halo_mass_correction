@@ -19,7 +19,14 @@ The code takes 5 arguments: halo masses (nd.array), environment ('all', 'high', 
 
 The code has a lower mass limit of 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;</sub>. Additionally, each environment/halo definition/redshift/simulation combination has an upper mass limit. If a given halo mass is outside the acceptable mass range, the code will issue a warning, and return the original (uncorrected) halo mass for that halo.
 
-If the environment provided is 'all' the code expects to take in an array of all halos, regardless of their environment. If the environment provided is 'high' the code expects to take in an array of only halos in high-density environments. Likewise, if the environment provided is 'low' the code expects to take in an array of only halos in low-density environments. The median environments used for each simulation/halo definition/redshift are given in halo_environments.txt.
+If the environment provided is 'all' the code expects to take in an array of all halos, regardless of their environment. If the environment provided is 'high' the code expects to take in an array of only halos in high-density environments. Likewise, if the environment provided is 'low' the code expects to take in an array of only halos in low-density environments. 
+
+Our halo environment measure is the mass (in halos) in 5 Mpc spheres centered on each halo of interest. (For this, we measure the environment on all DMO halos above 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;</sub>, and on all hydrodynamic halos above 8 \times 10<sup>9</sup> h<sup>-1</sup> M<sub>&#9737;</sub>.) Within the 5 Mpc sphere, we do not sum up all particles, but rather sum up all the mass within halos (of any size). 
+
+We can also define an environment factor &delta for each halo, such that &delta = (&delta<sub>sphere</sub> / &delta<sub>box</sub>) - 1, where &delta<sub>sphere</sub> is the mass in a 5 Mpc sphere around the halo divided by the volume of a 5 Mpc sphere, and &delta<sub>box</sub> is the sum of all halo masses in the box divided by the volume of the box.
+
+The median environment (mass) as well as the median &delta used to split halos into high and low density environments for each simulation/halo definition/redshift are given in halo_environments.txt.
+
 
 #### Example usage:
 
