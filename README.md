@@ -21,9 +21,11 @@ The code has a lower mass limit of 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;<
 
 If the environment provided is 'all' the code expects to take in an array of all halos, regardless of their environment. If the environment provided is 'high' the code expects to take in an array of only halos in high-density environments. Likewise, if the environment provided is 'low' the code expects to take in an array of only halos in low-density environments. The median environments used for each simulation/halo definition/redshift are given in halo_environments.txt.
 
-# Example usage:
+#### Example usage:
 
+<code>
 import numpy as np
 import halo_mass_correction as hmc
 
 corrected = hmc.correction(halo_masses=np.array([1e14, 1e13, 1e12, 1e11, 1e10]), env='all', halo_def='200b', redshift=0, sim='tng')
+</code>
