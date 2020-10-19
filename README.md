@@ -21,7 +21,7 @@ The code has a lower mass limit of 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;<
 
 If the environment provided is 'all' the code expects to take in an array of all halos, regardless of their environment. If the environment provided is 'high' the code expects to take in an array of only halos in high-density environments. Likewise, if the environment provided is 'low' the code expects to take in an array of only halos in low-density environments. 
 
-Our halo environment measure is the mass (in halos) in 5 Mpc spheres centered on each halo of interest. (For this, we measure the environment on all DMO halos above 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;</sub>, and on all hydrodynamic halos above 8 \times 10<sup>9</sup> h<sup>-1</sup> M<sub>&#9737;</sub>.) Within the 5 Mpc sphere, we do not sum up all particles, but rather sum up all the mass within halos (of any size). 
+Our halo environment measure is the mass (in halos) in 5 Mpc spheres centered on each halo of interest. (For this, we measure the environment on all DMO halos above 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;</sub>, and on all hydrodynamic halos above 8 x 10<sup>9</sup> h<sup>-1</sup> M<sub>&#9737;</sub>.) Within the 5 Mpc sphere, we do not sum up all particles, but rather sum up all the mass within halos (of any size). 
 
 We can also define an environment factor &delta; for each halo, such that &delta; = (&delta;<sub>sphere</sub> / &delta;<sub>box</sub>) - 1, where &delta;<sub>sphere</sub> is the mass in a 5 Mpc sphere around the halo divided by the volume of a 5 Mpc sphere, and &delta;<sub>box</sub> is the sum of all halo masses in the box divided by the volume of the box.
 
