@@ -27,5 +27,7 @@ If the environment provided is 'all' the code expects to take in an array of all
 import numpy as np
 import halo_mass_correction as hmc
 
-corrected = hmc.correction(halo_masses=np.array([1e14, 1e13, 1e12, 1e11, 1e10]), env='all', halo_def='200b', redshift=0, sim='tng')
+masses = np.array([1e14, 1e13, 1e12, 1e11, 1e10])
+
+corrected = hmc.correction(halo_masses=masses, env='all', halo_def='200b', redshift=0, sim='tng')
 ```
