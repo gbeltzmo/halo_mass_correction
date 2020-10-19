@@ -1,4 +1,4 @@
-## README
+# README
 
 Halo mass corrections based on Illustris, IllustrisTNG, and EAGLE from Beltz-Mohrmann et al. (2020).
 
