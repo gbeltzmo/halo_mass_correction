@@ -1,5 +1,5 @@
 
-# Median Environments -------------------------------------------
+# Median Environments
 
 # sim_halodef_z  = [Mass, Delta]
 
