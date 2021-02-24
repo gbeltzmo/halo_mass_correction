@@ -4,6 +4,8 @@ Halo mass corrections based on Illustris, IllustrisTNG, and EAGLE from Beltz-Moh
 
 We ask that you please cite Beltz-Mohrmann, G. D. & Berlind, A. A., "The effect of baryonic physics on the abundance and concentration of halos", in prep. if you make use of this repository.
 
+In order to use, add this directory to your PYTHONPATH.
+
 The corrections are 7th order polynomials, and the coefficients are given in order from lowest to highest, i.e. h,g,f,e,d,c,b,a.
 
 The corrected DMO halo masses (in units of 10<sup>10</sup> h<sup>-1</sup> M<sub>&#9737;</sub>) are given by
