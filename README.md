@@ -1,12 +1,10 @@
 # README
 
-Halo mass corrections based on the Illustris, IllustrisTNG, and EAGLE simulations.
+These are halo mass corrections based on the Illustris, IllustrisTNG, and EAGLE simulations.
 
-If you make use of the halo mass corrections in this repository, we ask that you please cite 
+If you make use of the halo mass corrections in this repository, we ask that you please cite [Beltz-Mohrmann, G. D. & Berlind, A. A., "The impact of baryonic physics on the abundance, clustering, and concentration of halos", 2021, submitted to The Astrophysical Journal](https://ui.adsabs.harvard.edu/abs/2021arXiv210305076B/abstract).
 
-[Beltz-Mohrmann, G. D. & Berlind, A. A., "The impact of baryonic physics on the abundance, clustering, and concentration of halos", 2021, submitted to The Astrophysical Journal](https://ui.adsabs.harvard.edu/abs/2021arXiv210305076B/abstract).
-
-In order to use, add this directory to your PYTHONPATH.
+After cloning the repository you must add it to your PYTHONPATH.
 
 The corrections are 7th order polynomials, and the coefficients are given in order from lowest to highest, i.e. h,g,f,e,d,c,b,a.
 
