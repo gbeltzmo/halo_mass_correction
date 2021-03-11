@@ -2,7 +2,11 @@
 
 Halo mass corrections based on Illustris, IllustrisTNG, and EAGLE from Beltz-Mohrmann et al. (2020).
 
-We ask that you please cite Beltz-Mohrmann, G. D. & Berlind, A. A., "The effect of baryonic physics on the abundance and concentration of halos", in prep. if you make use of this repository.
+We ask that you please cite 
+
+Beltz-Mohrmann, G. D. & Berlind, A. A., "The impact of baryonic physics on the abundance, clustering, and concentration of halos", 2021, submitted to The Astrophysical Journal
+
+if you make use of this repository.
 
 In order to use, add this directory to your PYTHONPATH.
 
