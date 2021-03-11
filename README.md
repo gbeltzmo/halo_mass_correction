@@ -24,6 +24,8 @@ where x = log<sub>10</sub>(M<sub>h,DMO</sub>) and a through h are the polynomial
 
 The code takes 5 arguments: halo masses (nd.array), environment ('all', 'high', 'low'), halo definition ('200b', 'fof', 'vir', '200c', '500c'), redshift (0,1,2), and simulation ('illustris', 'tng', 'eagle'). The code returns an array of corrected halo masses. 
 
+If you are interested in the halo mass correction for a redshift not given here, please contact gillian.d.beltz-mohrmann@vanderbilt.edu.
+
 #### Example usage:
 
 ```
